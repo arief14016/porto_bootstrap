@@ -4,5 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/snakeye1/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R node_modules $DEPLOYPATH

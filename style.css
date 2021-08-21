@@ -1,0 +1,23 @@
+body {
+    min-height: 2000px;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #CCD8E2;
+}
+
+#activity {
+    background-color: #CCD8E2;
+}
+
+#footer {
+    background-color: #CCD8E2;
+}
+
+
+

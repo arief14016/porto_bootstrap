@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/snakeye1/public_html/
+    - export DEPLOYPATH=/home/snakeye1/public_html/porto_bootstrap
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH

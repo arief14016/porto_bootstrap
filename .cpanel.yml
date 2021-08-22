@@ -6,5 +6,6 @@ deployment:
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R node_modules $DEPLOYPATH
+    # - /bin/cp -R img $DEPLOYPATH
+    # - /bin/cp -R node_modules $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH

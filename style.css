@@ -11,6 +11,10 @@ section {
     background-color: #CCD8E2;
 }
 
+.project-img {
+    width: 100%;
+}
+
 #activity {
     background-color: #CCD8E2;
 }
@@ -18,6 +22,10 @@ section {
 #footer {
     background-color: #CCD8E2;
 }
+
+/* #project .row > * {
+    padding: 0;
+} */
 
 
 
